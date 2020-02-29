@@ -16,7 +16,7 @@ class XPay extends PaymentModule
     {
         $this->name = 'xpay';
         $this->tab = 'payments_gateways';
-        $this->version = '1.0.1';
+        $this->version = '1.0.2';
         $this->author = 'Kijam';
         $this->module_key = '';
         if (version_compare(_PS_VERSION_, '1.7.1.0') >= 0) {

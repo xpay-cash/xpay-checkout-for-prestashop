@@ -33,7 +33,7 @@
                     }
                 } else {
                     ++xpaytoreload;
-                    if (xpaytoreload > 120) {
+                    if (xpaytoreload > 30) {
                         location.reload(true);
                         clearInterval(xpaytimer);
                         return;
